@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+}
+
+.title{
+    width: 585px;
+    height: 110px;
+    font-size: 30pt;
+    font-family: 'Noto Serif Display', serif;
+}
+
+.coordinateN{
+    height:auto;
+    display:flex;
+    margin-left: 50pt;
+    margin-bottom: 40pt;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Noto Serif Display', serif;
+}
+
+.coordinateL{
+    height:auto;
+    display:flex;
+    margin-top: 43pt;
+    margin-right: 40pt;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Noto Serif Display', serif;
+}
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    border-radius: 10px;
+    background-color: #607c7c;
+
+}
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+}
+.W{
+    background-color: rgb(234, 217, 160);
+}
+.B{
+    background-color: rgb(22, 96, 78);
+}
